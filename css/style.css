@@ -1,0 +1,238 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#f8fafc;
+    color:#2d3748;
+}
+
+/* NAVBAR */
+
+.navbar{
+    background:#0A2647;
+    backdrop-filter:blur(10px);
+}
+
+.navbar-brand{
+    font-size:1.2rem;
+}
+
+/* HERO */
+
+.hero{
+
+    padding:120px 0 70px;
+
+    background:
+    linear-gradient(
+    135deg,
+    #0A2647,
+    #144272,
+    #205295);
+
+    color:white;
+
+    text-align:center;
+}
+
+.foto-perfil{
+    width:200px;
+    height:200px;
+
+    border-radius:50%;
+    object-fit:cover;
+
+    border:6px solid white;
+
+    box-shadow:
+    0 15px 30px rgba(0,0,0,.25);
+}
+
+/* SECCIONES */
+
+section{
+    padding-top:70px;
+}
+
+h2{
+    font-weight:700;
+    color:#0A2647;
+}
+
+/* INFORMACION */
+
+.info-box{
+    background:white;
+    padding:30px;
+    border-radius:20px;
+
+    box-shadow:
+    0 10px 30px rgba(0,0,0,.08);
+
+    height:100%;
+}
+
+/* BUSCADOR */
+
+#buscador{
+    border:none;
+
+    border-radius:50px;
+
+    padding:15px 25px;
+
+    box-shadow:
+    0 8px 20px rgba(0,0,0,.08);
+}
+
+/* TITULOS COMPETENCIAS */
+
+.titulo-competencia{
+
+    color:#0A2647;
+
+    font-weight:700;
+
+    border-left:6px solid #205295;
+
+    padding-left:15px;
+
+    margin-bottom:20px;
+}
+
+/* CARDS */
+
+.card{
+
+    border:none;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    transition:.3s ease;
+
+    box-shadow:
+    0 10px 25px rgba(0,0,0,.08);
+}
+
+.card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:
+    0 20px 40px rgba(0,0,0,.15);
+}
+
+.card-body{
+    text-align:center;
+}
+
+.card-body h5{
+    font-weight:600;
+    margin-bottom:20px;
+}
+
+/* BOTONES */
+
+.btn{
+    border-radius:50px;
+    padding:10px 20px;
+}
+
+/* COMENTARIOS */
+
+#comentarios{
+    background:white;
+}
+
+.comentario-card{
+
+    padding:25px;
+
+    border-radius:20px;
+
+    background:white;
+
+    box-shadow:
+    0 10px 30px rgba(0,0,0,.08);
+
+    height:100%;
+}
+
+.comentario-icono{
+
+    font-size:4rem;
+
+    color:#205295;
+
+    margin-bottom:15px;
+}
+
+/* REFLEXION */
+
+#reflexion{
+    background:#f5f7fa;
+}
+
+.reflexion-icono{
+
+    font-size:3rem;
+
+    margin-bottom:15px;
+
+    color:#205295;
+}
+
+/* FOOTER */
+
+footer{
+
+    background:#0A2647;
+
+    color:white;
+
+    padding:30px;
+}
+
+/* BOTON FLOTANTE */
+
+#btnArriba{
+
+    position:fixed;
+
+    right:25px;
+
+    bottom:25px;
+
+    width:55px;
+
+    height:55px;
+
+    border:none;
+
+    border-radius:50%;
+
+    background:#205295;
+
+    color:white;
+
+    box-shadow:
+    0 8px 20px rgba(0,0,0,.25);
+
+    display:none;
+
+    transition:.3s;
+}
+
+#btnArriba:hover{
+    transform:scale(1.1);
+}
